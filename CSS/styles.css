@@ -15,10 +15,10 @@
     color: green;
     transition: 0.5s;
 }
-
-#collapsibleNavbar a:focus {
+/* 
+#collapsibleNavbar .active {
     background-color: rgb(80, 44, 28);
-}
+} */
 
 #collapsibleNavbar li {
     margin:0 30px 0 30px;
