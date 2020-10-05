@@ -4,11 +4,20 @@
     padding: 0;
 }
 
+h1, h3, h4 {
+    text-align: center;
+    color: azure;
+}
 
-
-/* *********************header section************************************ */
+/* *********************header section******************************** */
 #top-nav {
-    padding: 15px;
+    padding-left: 10%;
+    padding-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar-brand {
+    font-size: 30px;
 }
 
 #collapsibleNavbar a:hover {
@@ -30,3 +39,119 @@
     top: 0;
     width: 100%;
   }
+
+  /* *************************home section ****************************************/
+
+#home {
+    background-color: rgb(28, 44, 44);
+    margin: auto;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: azure;
+}
+
+#profile-pic {
+    width: 250px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+.separator {  
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.right-line {
+    margin-top: 20px;
+    float: right;
+    border-top: solid 5px azure;
+    width: 11vw;
+    text-align: center;
+    margin-right: 35%;
+    vertical-align: middle;
+}
+
+.left-line {
+    margin-top: 20px;
+    float: left;
+    border-top: solid 5px azure;
+    width: 11vw;
+    text-align: center;
+    margin-left: 35%;
+    vertical-align: middle;
+}
+
+.fa-star {
+    vertical-align: middle;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+/******************************portfolio section***********************************/
+
+#port {
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 80%;
+    text-align: center;
+}
+
+#port1{
+        padding-top: 80px;
+}
+
+#port1 h1, #port h3 {
+    color: black;
+}
+
+#port1 h1 {
+    font-weight: bold;
+}
+
+#port1 .left-line, #port1 .right-line {
+    border-top: solid 5px black;
+}
+
+.port-gal-img {
+    width: 100%;
+    display: block;
+    position: relative;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: all 0.3s ease-in;
+    margin: 3px;
+    overflow: hidden;
+    padding: 5px;
+  }
+  
+  .port-gal-img:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+  
+  #port .col-lg-4 {
+    padding-left: 0;
+    padding-right: 5px;
+  }
+  
+  #port .modal-body {
+    background-color: white;
+    height: auto;
+    width: auto;
+    border: none;
+  }
+  
+  #imagemodal .modal-content{
+    width: 1000px;
+    margin: 25% auto auto auto;
+    display: block;
+  }
+
+  /* .close:hover {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 5px 0 5px;
+  } */

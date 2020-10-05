@@ -15,11 +15,14 @@
     <link rel="stylesheet" href="CSS/styles.css">
     <script src="JS/scripts.js"></script>
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ed48181b27.js" crossorigin="anonymous"></script>
+
     <title>Simple Profile</title>
 </head>
 <body>
 
-    <div id="header" class="container-fluid">
+    <div id="header" class="container-fluid"> <!--header section-->
         <nav id="top-nav" class="navbar navbar-expand-md bg-dark navbar-dark ">
             <a class="navbar-brand" href="#">My Simple Profile</a>
             <!-- Toggler/collapsibe Button -->
@@ -44,166 +47,73 @@
         </nav>
     </div>
 
-    This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
+    <div id="home" class="container-fluid"> <!--home section-->
+        <img id="profile-pic" src="images/profile.jpg" alt="profile">
+        <h1 class="mt-5">Mohamed Ahmed</h1>
+        
+        <div class="separator">
+            <hr class="left-line">
+            <i class="fas fa-star"></i>
+            <hr class="right-line">
+        </div>
+        <h4 class="mt-4">Web Designer - Front-End Developer</h4>
+        
+    </div>
+
+    <div id="port1">
+        <h1>PORTFOLIO</h1>
+        <h3>Check out samples of my work</h3>
+        <div class="separator">
+            <hr class="left-line">
+            <i class="fas fa-star"></i>
+            <hr class="right-line">
+        </div>
+    </div>
+        
+
+    <div id="port" class="container-fluid"> <!--portfolio section-->
+
+        
+
+    <div id="port-gallery" class="row no-gutter"> <!-- port gallery -->
+        <div class="col-lg-4 no-gutter pop">
+            <img class="port-gal-img" src="images\port-1.jpg" alt="gallery">
+        </div>
+        <div class="col-lg-4 no-gutter pop">
+            <img class="port-gal-img" src="images\port-2.jpg" alt="gallery">
+        </div>
+        <div class="col-lg-4 no-gutter pop">
+            <img class="port-gal-img" src="images\port-3.jpg" alt="gallery">
+        </div>
+
+    </div>
+
+    <div class="row no-gutter">
+        <div class="col-lg-4 no-gutter pop">
+            <img class="port-gal-img" src="images\port-4.jpg" alt="gallery">
+        </div>
+        <div class="col-lg-4 no-gutter pop">
+            <img class="port-gal-img" src="images\port-5.jpg" alt="gallery">
+        </div>
+        <div class="col-lg-4 no-gutter pop">
+            <img class="port-gal-img" src="images\port-6.jpg" alt="gallery">
+        </div>
+
+    </div>
+
+    <!-- image preview -->
+    <div class="modal fade" id="imagemodal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">              
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <img src="" class="imagepreview" style="width: 100%;" >
+            </div>
+          </div>
+        </div>
+      </div>
 
-Scroll down this frame to see the effect!
 
-Scroll to the top to remove the effect.
 
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
-
-Scroll down this frame to see the effect!
-
-Scroll to the top to remove the effect.
-
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
-
-Scroll down this frame to see the effect!
-
-Scroll to the top to remove the effect.
-
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
-
-Scroll down this frame to see the effect!
-
-Scroll to the top to remove the effect.
-
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
-
-Scroll down this frame to see the effect!
-
-Scroll to the top to remove the effect.
-
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
-
-Scroll down this frame to see the effect!
-
-Scroll to the top to remove the effect.
-
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
-
-Scroll down this frame to see the effect!
-
-Scroll to the top to remove the effect.
-
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
-
-Scroll down this frame to see the effect!
-
-Scroll to the top to remove the effect.
-
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
-
-Scroll down this frame to see the effect!
-
-Scroll to the top to remove the effect.
-
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
-
-Scroll down this frame to see the effect!
-
-Scroll to the top to remove the effect.
-
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
-
-Scroll down this frame to see the effect!
-
-Scroll to the top to remove the effect.
-
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
-
-Scroll down this frame to see the effect!
-
-Scroll to the top to remove the effect.
-
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
-
-Scroll down this frame to see the effect!
-
-Scroll to the top to remove the effect.
-
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
-
-Scroll down this frame to see the effect!
-
-Scroll to the top to remove the effect.
-
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
-
-Scroll down this frame to see the effect!
-
-Scroll to the top to remove the effect.
-
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
-
-Scroll down this frame to see the effect!
-
-Scroll to the top to remove the effect.
-
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
-
-Scroll down this frame to see the effect!
-
-Scroll to the top to remove the effect.
-
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
-
-Scroll down this frame to see the effect!
-
-Scroll to the top to remove the effect.
-
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
-
-Scroll down this frame to see the effect!
-
-Scroll to the top to remove the effect.
-
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.
-
-Scroll down this frame to see the effect!
-
-Scroll to the top to remove the effect.
-
-Note: We have also made the navbar responsive, resize the browser window to see the effect.
-
-Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </body>
 </html>
