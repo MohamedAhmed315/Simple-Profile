@@ -60,9 +60,9 @@
         
     </div>
 
-    <div id="port1">
+    <div id="port1"> <!--portfolio section-->
         <h1>PORTFOLIO</h1>
-        <h3>Check out samples of my work</h3>
+        <h4>Check out samples of my work</h4>
         <div class="separator">
             <hr class="left-line">
             <i class="fas fa-star"></i>
@@ -70,50 +70,127 @@
         </div>
     </div>
         
-
     <div id="port" class="container-fluid"> <!--portfolio section-->
-
-        
-
-    <div id="port-gallery" class="row no-gutter"> <!-- port gallery -->
-        <div class="col-lg-4 no-gutter pop">
-            <img class="port-gal-img" src="images\port-1.jpg" alt="gallery">
-        </div>
-        <div class="col-lg-4 no-gutter pop">
-            <img class="port-gal-img" src="images\port-2.jpg" alt="gallery">
-        </div>
-        <div class="col-lg-4 no-gutter pop">
-            <img class="port-gal-img" src="images\port-3.jpg" alt="gallery">
-        </div>
-
-    </div>
-
-    <div class="row no-gutter">
-        <div class="col-lg-4 no-gutter pop">
-            <img class="port-gal-img" src="images\port-4.jpg" alt="gallery">
-        </div>
-        <div class="col-lg-4 no-gutter pop">
-            <img class="port-gal-img" src="images\port-5.jpg" alt="gallery">
-        </div>
-        <div class="col-lg-4 no-gutter pop">
-            <img class="port-gal-img" src="images\port-6.jpg" alt="gallery">
-        </div>
-
-    </div>
-
-    <!-- image preview -->
-    <div class="modal fade" id="imagemodal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">              
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-              <img src="" class="imagepreview" style="width: 100%;" >
+        <div id="port-gallery" class="row no-gutter"> <!-- port gallery -->
+            <div class="col-lg-4 no-gutter pop">
+                <img class="port-gal-img" src="images\port-1.jpg" alt="gallery">
             </div>
-          </div>
+            <div class="col-lg-4 no-gutter pop">
+                <img class="port-gal-img" src="images\port-2.jpg" alt="gallery">
+            </div>
+            <div class="col-lg-4 no-gutter pop">
+                <img class="port-gal-img" src="images\port-3.jpg" alt="gallery">
+            </div>
+        </div>     
+
+        <div class="row no-gutter">
+            <div class="col-lg-4 no-gutter pop">
+                <img class="port-gal-img img-fluid" src="images\port-4.jpg" alt="gallery">
+            </div>
+            <div class="col-lg-4 no-gutter pop">
+                <img class="port-gal-img img-fluid" src="images\port-5.jpg" alt="gallery">
+            </div>
+            <div class="col-lg-4 no-gutter pop">
+                <img class="port-gal-img" src="images\port-6.jpg" alt="gallery">
+            </div>
         </div>
-      </div>
 
+        <!-- image preview -->
+        <div class="modal fade" id="imagemodal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog center">
+            <div class="modal-content">              
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <img src="" class="imagepreview">
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
 
+    <div id="about" class="container-fluid"> <!--about section-->
+        <h1>ABOUT</h1>  
+        <div class="separator">
+            <hr class="left-line">
+            <i class="fas fa-star"></i>
+            <hr class="right-line">
+        </div>
 
+        <div class="row w-80 m-auto ">
+            <div class="col-lg-6 mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+
+            <div class="col-lg-6 mb-4">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="container-fluid"> <!--contact section-->
+        <h1>CONTACT ME</h1>  
+        <div class="separator">
+            <hr class="left-line">
+            <i class="fas fa-star"></i>
+            <hr class="right-line">
+        </div>
+
+        <div class="container">
+            <form action="/action_page.php">
+                <div class="form-group">
+                    <label for="name">Name:*</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:*</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Enter phone number" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Message:*</label>
+                    <textarea class="form-control" rows="3" id="message" placeholder="Enter your message" required></textarea>
+                </div>
+                <p style="font-weight: bold;">* required fields</span></p>
+
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="footer" class="container-fluid"> <!--footer section-->
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6534.259400442881!2d-73.76634146787562!3d45.44570768256163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc93dec63314eb7%3A0xe422bbc5b411fd27!2sDorval%20Elementary%20School!5e0!3m2!1sen!2seg!4v1602769279998!5m2!1sen!2seg" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+
+            <div class="col-md-4 mb-4 align-center">
+                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                <h5>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</h5>
+            </div>
+
+            <div class="col-md-4">
+                <h6>ADDRESS:</h6>
+                <P>123 street address, city, country.</P>
+                <h6>TEL:</h6>
+                <P>+1 234 567 890</P>
+                <!-- <h6>FAX:</h6>
+                <P>+1 234 567 890</P> -->
+                <h6>EMAIL:</h6>
+                <P>email_address@website.com</P>
+            </div>
+
+            
+        </div>
+        
+    </div>
+
+<!-- <div class="col-lg-4">
+                <p>Designed by: <span style="color: red;">Mohamed Ahmed Saber</span></p>
+                <i class="fab fa-facebook"></i>
+            </div> -->
+    
 </body>
 </html>

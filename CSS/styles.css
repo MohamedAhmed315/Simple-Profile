@@ -1,5 +1,9 @@
 
 /* ************************general***************************** */
+/* body {
+    background-color: azure;
+} */
+
 .container-fluid{
     padding: 0;
 }
@@ -9,7 +13,12 @@ h1, h3, h4 {
     color: azure;
 }
 
-/* *********************header section******************************** */
+h1 {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* *********************header section********************************************************************* */
 #top-nav {
     padding-left: 10%;
     padding-bottom: 20px;
@@ -24,10 +33,6 @@ h1, h3, h4 {
     color: green;
     transition: 0.5s;
 }
-/* 
-#collapsibleNavbar .active {
-    background-color: rgb(80, 44, 28);
-} */
 
 #collapsibleNavbar li {
     margin:0 30px 0 30px;
@@ -40,7 +45,7 @@ h1, h3, h4 {
     width: 100%;
   }
 
-  /* *************************home section ****************************************/
+  /* *************************home section *******************************************************************/
 
 #home {
     background-color: rgb(28, 44, 44);
@@ -90,20 +95,22 @@ h1, h3, h4 {
     margin-top: 5px;
 }
 
-/******************************portfolio section***********************************/
+/**********************************portfolio section**********************************************************/
 
 #port {
     padding-right: 5px;
     padding-left: 5px;
+    padding-bottom: 80px;
     width: 80%;
     text-align: center;
 }
 
 #port1{
-        padding-top: 80px;
+    padding-top: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#port1 h1, #port h3 {
+#port1 h1, #port1 h4 {
     color: black;
 }
 
@@ -124,6 +131,7 @@ h1, h3, h4 {
     margin: 3px;
     overflow: hidden;
     padding: 5px;
+
   }
   
   .port-gal-img:hover {
@@ -145,13 +153,104 @@ h1, h3, h4 {
   }
   
   #imagemodal .modal-content{
-    width: 1000px;
-    margin: 25% auto auto auto;
+    width: 70vw;
+    margin: auto; 
     display: block;
+    
   }
 
-  /* .close:hover {
-    background-color: red;
-    border-radius: 50%;
-    padding: 5px 5px 0 5px;
-  } */
+  .center {
+    position: absolute;
+    left: 15%;
+    top: auto;
+  }
+
+  .imagepreview {
+      width: 100%;
+      max-width: 1000px;
+  }
+
+  /* ***********************************about section****************************************************** */
+
+  #about {
+      padding-top: 80px;
+      background-color: rgb(28, 44, 44);
+  }
+
+  #about * {
+      color: azure;
+  }
+
+  /*********************************contact section**********************************************************/
+
+  #contact {
+      padding-top: 80px;
+  }
+
+  #contact * {
+      color: black;
+  }
+
+  #contact .left-line, #contact .right-line {
+    border-top: solid 5px black;
+}
+
+#contact label {
+    font-weight: bold;
+    text-indent: 10px;
+}
+
+#contact .btn {
+    background-color: rgb(41, 43, 44);
+    color: azure;
+    width: 100px;
+    padding: 10px;
+}
+
+.form-control {
+    background-color: azure;
+    margin-bottom: 20px;
+}
+/* ************************************************footer section*********************************************** */
+
+    #footer {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 80px;
+        padding-bottom: 60px;
+        margin-top: 80px;
+        background-color: rgb(41, 43, 44);
+        color: azure;
+    }
+
+    #footer h6 {
+        margin-top: 0;
+        margin-bottom: 0%;
+        color: chartreuse;
+    }
+
+    #footer p {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    #footer iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    #footer h5 {
+        font-weight: normal;
+    }
+
+
+  /* ****************************************************media query*************************************** */
+  @media only screen and (max-width: 600px) {
+
+    #imagemodal .modal-content{
+        width: 90vw;
+    }
+    .center {
+        left: 3%;
+      }
+  }
