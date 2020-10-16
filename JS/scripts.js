@@ -8,5 +8,20 @@ $(function() {
   });		
 });
 
+// active class in navbar  
+$(document).ready(function() {
+            
+  $( ".nav-item" ).bind( "click", function(event) {
+      $(".active").removeClass("active");
+      event.preventDefault();
+      var clickedItem = $( this );
+      $( ".nav-item" ).each( function() {
+          $( this ).removeClass( "active" );
+      });
+      clickedItem.addClass( "active" );
+  });
+});
+
+
 
 
